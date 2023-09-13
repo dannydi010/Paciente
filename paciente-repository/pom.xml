@@ -11,6 +11,13 @@
 
     <artifactId>paciente-repository</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.clinica.arequipa</groupId>
+            <artifactId>paciente-core</artifactId>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
